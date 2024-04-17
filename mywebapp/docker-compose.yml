@@ -1,0 +1,10 @@
+version: 'v2.20.3'
+
+services:
+  django:
+    image: python-project:0.0.1
+    build: .
+    ports: 
+      - "8000:8000"
+      
+
